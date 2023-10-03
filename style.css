@@ -1,21 +1,18 @@
+body {
+    margin: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 nav ul li {
     padding: 2vw;
     display: inline-block;
 }
-.btn{
-    background: linear-gradient(to right,hsl(136,65%,31%),hsl(192,70%,51%)) ;
-    width: 138px;
-    height: 48px;
-    text-align: center;
-    border: 1px solid #ffffff;
-    border-radius: 40px;
-    margin-bottom: 10px;
-}
+
 nav ul li a {
     font-size: 16px;
     font-family: Epilogue;
@@ -25,257 +22,348 @@ nav ul li a {
     color: grey;
     text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: black;
 }
-.main-div{
+
+.btn {
+    background: linear-gradient(to right, hsl(136, 49%, 57%), hsl(192, 70%, 51%));
+    width: 138px;
+    height: 48px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.main-div {
     background-color: hsl(0, 0%, 98%);
     display: flex;
     justify-content: space-around;
 }
-.img2{
+
+.img2 {
     width: 400px;
     height: 400px;
     margin-top: 10%;
 }
-.txt1{
+
+.txt1 {
     font-size: 72px;
     width: 36vw
 }
-.txt2{
+
+.txt2 {
     font-size: 20px;
     width: 25vw;
 }
-.txt3{
+
+.txt3 {
     font-size: 40px;
 
 }
-.txt4{
+
+.txt4 {
     font-size: 20px;
     width: 42vw;
 }
-.sub_div2{
+
+.sub_div2 {
     margin-left: 10%;
     margin-top: 2%;
     padding: 1px;
 }
-.txt5{
+
+.txt5 {
     font-size: 35px;
     margin-top: 20px;
 }
-.txt6{
+
+.txt6 {
     font-size: 20px;
     width: 17vw;
 }
-.txt10{
-        font-size: 20px;
-        width: 17vw;
+
+.txt10 {
+    font-size: 20px;
+    width: 17vw;
 }
-.flex1{
+
+.flex1 {
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.mar1{
+
+.mar1 {
     margin-top: 5%;
     margin-right: 2%;
 }
-.main-div3{
-    background-color:hsl(0, 0%, 98%) ;
+
+.main-div3 {
+    background-color: hsl(0, 0%, 98%);
 
 }
-.txt7{
+
+.txt7 {
     font-size: 40px;
 }
-.sub_div3{
+
+.sub_div3 {
     background-color: white;
     margin-bottom: 5%;
 }
-.img5{
+
+.img5 {
     width: -webkit-fill-available;
     height: 300px;
     border-radius: 6px;
 }
-.sub_div3 p,h5{
+
+.sub_div3 p,
+h5 {
     margin: 0;
 }
-.mar2{
+
+.mar2 {
     padding: 20px;
 }
-.txt9{
+
+.txt9 {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.txt8{
+
+.txt8 {
     font-size: 20px;
 }
-.mar3{
+
+.mar3 {
     width: 25%;
 }
 
-.flex2{
+.flex2 {
     display: flex;
     width: 80%;
     margin: 0 auto;
     gap: 1em;
 }
-.div-4{
+
+.div-4 {
     background-color: hsl(233, 26%, 24%);
-    padding-left: 11%;
 }
-.img4{
+
+.img4 {
     margin-top: 50%;
     margin-bottom: 25%;
-    margin-right: 6%;
+    cursor: pointer;
 }
-.img3{
+
+.img3 {
     padding-top: 32%;
 }
-.flex3{
+
+.flex3 {
     display: flex;
+    gap: 10%;
 }
-.flex4{
+
+.flex4 {
     display: flex;
     justify-content: space-around;
 }
-.about{
+
+.about {
     padding-top: 1%;
     color: #ffffff;
 }
-.cr{
-    margin-top: 1%;
+
+.cr {
+    padding-top: 1%;
     color: #ffffff;
 }
-.mar6{
+
+.mar6 {
     padding-top: 40px;
     color: #ffffff;
 }
-.mobileimg{
+
+.mar6 p {
+    margin: 0;
+}
+
+.txt11 {
+    padding-top: 5%;
+}
+
+.mobileimg {
     display: none;
 }
-@media(max-width:768px){
-    .navbar{
-        display: block ;
-        display: flex ;
-        padding: 3% ;
-        justify-content: space-between ;
+
+@media(max-width:768px) {
+
+    .navbar {
+        display: block;
+        display: flex;
+        padding: 3%;
+        justify-content: space-between;
     }
-    .point{
+
+    .point {
         display: none;
     }
-    .btan{
+
+    .btan {
         display: none;
     }
-    .mobileimg{
+
+    .mobileimg {
         display: block;
     }
-    .main-div{
+
+    .main-div {
         background-color: hsl(0, 0%, 98%);
         flex-direction: column-reverse;
     }
-    .img2{
+
+    .img2 {
         width: 75%;
         padding-left: 10%;
     }
-    .txt1{
+
+    .txt1 {
         font-size: 38px;
         width: 48vw;
         margin: 0 auto;
         text-align: center;
     }
-    .txt2{
+
+    .txt2 {
         width: 63vw;
         padding-top: 4%;
         padding-bottom: 2%;
         margin: 0 auto;
         text-align: center;
     }
-    .btn{
-        margin-left: 37%
+
+    .btan1 {
+        display: flex;
+        justify-content: center;
     }
-    .txt3{
+
+    .txt3 {
         font-size: 28px;
         margin: 0 auto;
         width: 35vw;
         padding-bottom: 4%;
         text-align: center;
     }
-    .txt4{
+
+    .txt4 {
         margin: 0 auto;
         width: 50vw;
         text-align: center;
     }
-    .sub_div2{
+
+    .sub_div2 {
         margin: 0px;
-        
+
     }
-    .flex1{
+
+    .flex1 {
         display: block;
     }
-    .txt5{
+
+    .txt5 {
         width: 55vw;
         margin: 0 auto;
         text-align: center;
     }
-    .txt6{
+
+    .txt6 {
         text-align: center;
         width: 52vw;
         margin: 0 auto;
         padding: 2%;
     }
-    .img1{
+
+    .img1 {
         width: 12%;
         padding-left: 45%;
 
     }
-    .txt7{
+
+    .txt7 {
         text-align: center;
     }
-    .flex2{
+
+    .flex2 {
         display: block;
     }
-    .img5{
+
+    .flex3 {
+        gap: 6%;
+    }
+
+    .img5 {
         border-radius: 6px;
         margin-right: 0px;
     }
-    .mar3{
+
+    .mar3 {
         width: 100%;
     }
-    .sub_div3{
+
+    .sub_div3 {
         margin-right: 0px;
     }
-    .txt8{
+
+    .txt8 {
         width: 53vw;
     }
-    .txt10{
+
+    .txt10 {
         width: 30vw;
     }
-    .flex4{
+
+    .flex3 {
+        justify-content: center;
+    }
+
+    .flex4 {
         display: block;
     }
-    .img4{
+
+    .img4 {
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    .about{
+
+    .about {
         text-align: center;
     }
-    .cr{
+
+    .cr {
         text-align: center;
     }
-    .div-4{
+
+    .div-4 {
         padding-left: 0px;
     }
-    .txt11{
+
+    .txt11 {
         text-align: center;
         padding-bottom: 5%;
     }
-    .img3{
+
+    .img3 {
+        display: flex;
+        justify-content: center;
         padding-top: 10%;
-        padding-left: 40%;
+
     }
-    #img4{
-        margin-left: 30%;
-    }  
+
 }
